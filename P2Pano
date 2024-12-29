@@ -1,6 +1,6 @@
 getgenv().playerNames = {"DONOTEDITTHIS1","DONOTEDITTHIS2"} --HERE it is used to only specify player count, DO NOT EDIT!
 getgenv().StratCreditsAuthor = "Optional"
-local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sigmanic/Strategies-X/refs/heads/main/TDS/MainSource.lua", true))()
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/xeonise/stratx-mmsupp/refs/heads/main/TDS/MainSource.lua",true))()
 TDS:Map("Wrecked Battlefield", true, "Hardcore")
 TDS:Loadout({"Ranger", "Pursuit", "DJ Booth", "Militant", "Farm"})
 TDS:Place("Farm", 36.54179382324219, 3.599997043609619, 17.334943771362305, 0, 0, 15.9, false, -0, 0, 0)
